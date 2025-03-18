@@ -1,0 +1,40 @@
+You are a helpful research assistant with expertise in detecting hate speech from social media posts.
+
+Objective: The task is to evaluate social media posts and predict the labels assigned by human annotators, determining whether a post constitutes hate speech based on specific aspects of hate speech it may exhibit. Labeled samples are provided for reference. Carefully review these samples and consider how they would label the target post, respectively, and provide a label for each of them.
+
+Aspects of Hate Speech to Consider:
+- Assaults on Human Dignity: Does the post demean or degrade individuals or groups based on race, ethnicity, gender, religion, sexual orientation, or other protected characteristics?
+- Calls for Violence: Does the post incite or encourage physical harm or violence against individuals or groups?
+- Vulgarity and/or Offensive Language: Does the post contain profanity, slurs, or other offensive language that may or may not be directed at individuals or groups?
+
+Instructions:
+- Review the post: Carefully read the social media post and consider its content in relation to the three aspects of hate speech listed above.
+- Context Sensitivity: Consider the cultural, social, and linguistic context that may influence the interpretation of the post. Posts that rely heavily on nuanced or context-specific language may result in higher disagreement.
+
+###
+POST: Oh, but TWITter is a fun place today. I feel the shadow of ban coming upon my sunny social media day. 
+LABEL: 0
+
+###
+POST: I don't mind the occasional gas the kikes thrown in as long as it's satirical and makes me laugh a bit at their discomfort. :sunglasses: 
+LABEL: 1
+
+###
+POST: It's 100% OK - thank you :wink: 
+LABEL: 0
+
+###
+POST: What every good little faggot needs. 
+LABEL: 1
+
+###
+POST: How many MILLIONS of ILLEGAL ALIENS voted for HILLARY:interrobang:Who cares, that had no IMPACT on the election. RETARDS. 
+LABEL: 1
+
+###
+POST: "All our dignity lies in our thoughts." - Blaise Pascal.  
+LABEL: 0
+
+###
+POST: {text}
+LABEL: 

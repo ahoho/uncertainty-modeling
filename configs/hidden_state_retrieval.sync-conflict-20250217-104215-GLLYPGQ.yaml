@@ -1,0 +1,9 @@
+model_name: "Qwen/Qwen2-7B-Instruct"  # or any other causal LM from HuggingFace
+device: "cuda"  # or "cpu"
+quantization: true # set to true to use 8-bit quantization
+template_path: "configs/ghc_prompt.txt"
+dataset_path: "data/ghc_train_5.jsonl"
+output_dir: "outputs"
+valid_answers:  # list of valid answers to consider for logits
+  - "0"
+  - "1"
